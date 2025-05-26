@@ -23,3 +23,8 @@ mahasiswa::mahasiswa(int INim){
 mahasiswa::mahasiswa(string INama){
     Nama =  INama;
 }
+
+mahasiswa::mahasiswa(int INim, string INama){
+    Nim     = INim;
+    Nama    = INama;
+}
